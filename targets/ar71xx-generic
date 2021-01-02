@@ -131,6 +131,15 @@ device('gl.inet-gl-usb150', 'gl-usb150', {
 })
 
 
+-- Joy-IT
+
+device('joy-it-jt-or750i', 'jt-or750i', {
+	factory = false,
+	packages = ATH10K_PACKAGES_QCA9887,
+})
+
+
+
 -- Linksys by Cisco
 
 device('linksys-wrt160nl', 'wrt160nl', {
